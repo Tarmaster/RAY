@@ -1,7 +1,7 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
- 
-if game.GameId == 92416421522960 then --SLIME RNG
+
+if game.PlaceId == 92416421522960 then --SLIME RNG
     loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/73fa8a213468ca327262a035735030a84a3044dff850cf0c0b25f3be23594e2b.lua"))()
-elseif game.GameId == 96645548064314 then--CAT
+elseif game.PlaceId == 96645548064314 then--CAT
     loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/cf62f6b291b298617f940fba6cfb243f864c5adcc016b7a60393fd1f43c88eb8.lua"))()
 end
